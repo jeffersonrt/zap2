@@ -49,3 +49,12 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
