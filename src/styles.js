@@ -40,6 +40,7 @@ export const FormWarp = styled.div`
   transform: translateY(-50%);
   padding: 40px 20px;
   background: #fff;
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.2);
 
   .intl-tel-input {
     display: flex;
@@ -83,21 +84,29 @@ export const Title = styled.h1`
 
 export const SubTitle = styled.h2`
   text-align: center;
-  font-size: 18px !important;
+  font-size: 18px;
   font-weight: 500;
   color: #075e54;
-  font-size: 12px;
 `;
 
 export const About = styled.div`
   text-align: center;
-  font-size: 18px !important;
+  font-size: 12px;
   font-weight: 500;
   color: #075e54;
-  font-size: 12px;
 
   img {
     margin: 0 4px;
-    max-width: 18px;
+    max-width: 10px;
+  }
+`;
+
+export const Link = styled.a`
+  text-decoration: none;
+  color: #128c7e;
+  margin: 0 4px;
+
+  &:hover {
+    color: #34b7f1;
   }
 `;

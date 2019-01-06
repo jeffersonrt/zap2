@@ -8,7 +8,15 @@ import logo from './assets/icon.svg';
 import iconHeart from './assets/heart-icon.svg';
 
 import {
-  GlobalStyle, About, FormWarp, Header, Logo, Button, Title, SubTitle,
+  GlobalStyle,
+  About,
+  FormWarp,
+  Header,
+  Logo,
+  Button,
+  Title,
+  SubTitle,
+  Link,
 } from './styles';
 
 export default class App extends Component {
@@ -48,10 +56,6 @@ export default class App extends Component {
   };
 
   handleNumberChange = (status, value, countryData, number) => {
-    // console.log('status', status);
-    // console.log('value', value);
-    // console.log('countryData', countryData.dialCode);
-    // console.log('number', number);
     this.setState({ inputPhoneNumber: number });
   };
 
@@ -89,6 +93,12 @@ export default class App extends Component {
             <img src={iconHeart} alt="love" />
             {' '}
 in Curitiba - PR - Brazil
+          </p>
+          <p>
+            by
+            <Link target="_blank" href="https://github.com/jeffersonrt">
+              Jefferson Torá
+            </Link>
           </p>
         </About>
 
