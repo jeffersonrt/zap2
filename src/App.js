@@ -81,7 +81,6 @@ export default class App extends Component {
             onPhoneNumberChange={this.handleNumberChange}
             geoIpLookup={this.getLocation}
             format
-            // css={['intl-tel-input', 'form-control']}
           />
           <Button onClick={this.handleSubmit}>Ok</Button>
         </FormWarp>
