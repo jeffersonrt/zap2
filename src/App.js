@@ -89,15 +89,17 @@ export default class App extends Component {
         <About>
           <p>
             Made with
-            {' '}
             <img src={iconHeart} alt="love" />
-            {' '}
-in Curitiba - PR - Brazil
+            in Curitiba - PR - Brazil
           </p>
           <p>
             by
             <Link target="_blank" href="https://github.com/jeffersonrt">
-              Jefferson Torá
+              Jefferson Torá.
+            </Link>
+            Contribute to
+            <Link target="_blank" href="https://github.com/jeffersonrt/zap2">
+              Github project.
             </Link>
           </p>
         </About>
